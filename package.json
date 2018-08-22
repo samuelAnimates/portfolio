@@ -8,12 +8,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "Samuel R. mendez",
   "license": "MIT",
   "dependencies": {
+    "create-react-app": "^1.5.2",
     "express": "^4.16.3"
   }
 }
