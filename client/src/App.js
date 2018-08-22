@@ -6,17 +6,21 @@ import HomePage from "./pages/HomePage";
 import Header from './components/Header';
 
 import ProjectsPageSkeleton from "./pages/ProjectsPageSkeleton";
+import TestPage from "./pages/TestPage";
 
 import './App.css';
 
 class App extends Component {
   
   state = {
+		blurbWidth: "50%",	
 		colorSchemeSuffix: "default",
 		doNotTrack: true,
 		fontSizeLevel: "14pt",
 		isMobileView: true,
 		mainPaddingLeftClassName: "padding-left-0em",
+		materialIconFill: "rgb(3,3,3)",
+		portraitWidth: "70%",
 		responsiveFloat:"none",
 		responsiveWidth:"50%"
   }
@@ -97,13 +101,13 @@ class App extends Component {
   
 	updateIsMobileVariable = () =>{
 		if(window.innerWidth < 800) {
-			this.setState({isMobileView: true,  mainPaddingLeftClassName: "padding-left-0", responsiveFloat:"none", responsiveWidth: "100%"});
+			this.setState({isMobileView: true, blurbWidth: "100%",  mainPaddingLeftClassName: "padding-left-0", portraitWidth: "80%",  responsiveFloat:"none", responsiveWidth: "100%"});
 		}
 		else if(this.state.fontSizeLevel !== "14pt") {
-			this.setState({isMobileView: true,  mainPaddingLeftClassName: "padding-left-0", responsiveFloat:"none", responsiveWidth: "100%"});
+			this.setState({isMobileView: true, blurbWidth: "100%",  mainPaddingLeftClassName: "padding-left-0", portraitWidth: "80%", responsiveFloat:"none", responsiveWidth: "100%"});
 		}
 		else {
-			this.setState({isMobileView: false, mainPaddingLeftClassName: "padding-left-6p5em", responsiveFloat:"left", responsiveWidth: "50%"});
+			this.setState({isMobileView: false, blurbWidth: "50%", mainPaddingLeftClassName: "padding-left-6p5em", portraitWidth: "50%", responsiveFloat:"left", responsiveWidth: "50%"});
 		}
 	};
 
@@ -120,11 +124,14 @@ class App extends Component {
             <Switch>
             	<Route exact path="/" render={props => (
 					<HomePage
+						blurbWidth={ this.state.blurbWidth }	
 						colorSchemeSuffix={ this.state.colorSchemeSuffix }
 						doNotTrack={ this.state.doNotTrack }
 						fontSizeLevel={ this.state.fontSizeLevel }
 						isMobileView={ this.state.isMobileView }
 						mainPaddingLeftClassName={ this.state.mainPaddingLeftClassName }
+						materialIconFill={ this.state.materialIconFill }
+						portraitWidth={ this.state.portraitWidth }
 						responsiveFloat={ this.state.responsiveFloat }
 						responsiveWidth={this.state.responsiveWidth}
 					/>
@@ -137,10 +144,12 @@ class App extends Component {
 						headerRef={ this.headerRef }
 						isMobileView={ this.state.isMobileView }
 						mainPaddingLeftClassName={ this.state.mainPaddingLeftClassName }
+						materialIconFill={ this.state.materialIconFill }
 						responsiveFloat={ this.state.responsiveFloat }
 						responsiveWidth={this.state.responsiveWidth}
 					/>
 				)}/>
+				<Route exact path="/test" component={TestPage} />
             </Switch>
         </Router>
 		{ this.state.isMobileView === true &&

@@ -18,6 +18,9 @@
 .color-inherit{
 	color: inherit;
 }
+.display-inline{
+	display: inline;
+}
 .font-size-p75em{
 	font-size: 0.75em;
 }

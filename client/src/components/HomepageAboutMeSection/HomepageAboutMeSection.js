@@ -9,7 +9,7 @@ const HomepageAboutMeSection = React.forwardRef((props, ref) => (
 	<GenericFloatingSection colorSchemeSuffix={ props.colorSchemeSuffix }>
 		<div className={ "homepageAboutMeSection-color-scheme-" + props.colorSchemeSuffix + " color-inherit"}>
 			<SheerWhiteContainer colorSchemeSuffix={ props.colorSchemeSuffix }>
-				<h2 tabIndex="0" className="text-center" ref={ ref }>ABOUT ME</h2>
+				<h2 tabIndex="0" className="text-center" ref={ ref }>About Me</h2>
 			</SheerWhiteContainer>
 			<ResponsiveCtoLFloat 
 				width={ props.portraitWidth }
@@ -34,16 +34,13 @@ const HomepageAboutMeSection = React.forwardRef((props, ref) => (
 							)}
 						</div>
 				</ResponsiveCtoLFloat>
-			<div className="border-color-rgba100-100-100-p9 border-style-solid border-width-2px-0-0-0 clear-both color-black font-Assistant height-100pc padding-top-1em">
-				<div className="padding-bottom-p25em">
-					<h3 className="text-center">PERSONAL LINKS</h3>
+				<div className="padding-top-1em padding-bottom-p25em">
 					<HomepageProjectLinksContainer
 						links = { props.links }
 						colorSchemeSuffix={ props.colorSchemeSuffix }
 						materialIconFill={ props.materialIconFill }
 					/>
 				</div>	
-			</div>
 		</div>
 	</GenericFloatingSection>
 ));

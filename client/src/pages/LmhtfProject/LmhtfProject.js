@@ -19,7 +19,7 @@ class LmhtfProject extends Component {
 				{
 					id: "lmhtfSpecs01",
 					lead: "Length",
-					body: "02 min. 18 sec."
+					body: "03 min. 05 sec. (Excerpt above)"
 				}
 			]
 		},

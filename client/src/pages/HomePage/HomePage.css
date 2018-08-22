@@ -1,6 +1,6 @@
 .homepage-color-scheme-default{
 	background: rgb(251, 251, 251);
-	background: linear-gradient(to bottom, rgb(251, 251, 251) 0%, #fffcfc 7%, #e3f0ff 17%,#94C6FF 25%, #e3f0ff 32% #fcffe0 35%, #fcffe0 50%, #fde9f3 65%, rgb(255, 178, 236) 77%, #fde9f3 84%, #fcffd0 89%, #f8ff8f 95%);
+	background: linear-gradient(to bottom, rgb(251, 251, 251) 0%, #fffcfc 7%, #e3f0ff 17%,#94C6FF 25%, #e3f0ff 32% #fcffe0 35%, #fcffe0 50%, #fde9f3 65%, rgb(255, 178, 236) 77%, #fde9f3 84%, #fcffd0 89%, #f7fd9a 95%);
 	color: rgb(5,5,5);
 }
 .homepage-color-scheme-highContrast{

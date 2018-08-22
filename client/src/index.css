@@ -87,6 +87,13 @@ h3 {
 	line-height: 1.15em;
 	margin: 0;
 }
+h4 {
+	font-family: 'Overpass Mono', monospace;
+	font-size: 1.1em;
+	font-weight: 600;
+	line-height: 1.15em;
+	margin: 0;
+}
 .font-Assistant{
 	font-family: 'Assistant', sans-serif;
 }

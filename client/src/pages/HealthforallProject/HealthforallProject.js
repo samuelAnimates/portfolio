@@ -8,13 +8,13 @@ class HealthforallProject extends Component {
   projectInfo = {
 		title: "Health for All",
 		synopsis:{
-			mediaType: "video",
+			mediaType: "photo",
 			blurb: "A partnership between Northwestern Medicine and Chicago Public Library to spread knowledge and awareness of clinical trials in underrepresented communities.",
-			embed: {
-				url: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwearemuui%2Fvideos%2F1838183853120576%2F&show_text=0&width=560",
-				title: "'10 Days in healthforall' episode on Facebook."
+			embed: {	
+				src: "../assets/images/projectPhotos/healthforall.jpg",
+				alt: "Health for All logo."
 			},
-			year: "2017",
+			year: "2018",
 			specs: [
 				{
 					id: "healthforallSpecs01",
