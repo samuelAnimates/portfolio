@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="215mm"
+   height="215mm"
+   viewBox="0 0 215 215"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="social-icon-vimeo-blue.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4510">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g4506"
+         id="use4512"
+         width="100%"
+         height="100%" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="234.87497"
+     inkscape:cy="331.42857"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4547"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(0,-82)">
+    <g
+       transform="matrix(5.6970998,0,0,-5.6730985,-598.79892,290.4988)"
+       inkscape:label="ink_ext_XXXXXX"
+       id="g4547">
+      <g
+         transform="matrix(0.31069025,0,0,0.31234548,105.33376,-0.93761821)"
+         inkscape:label="ink_ext_XXXXXX"
+         id="g4660">
+        <g
+           transform="scale(0.1)"
+           id="g4662">
+          <path
+             style="fill:#003acc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.66935426"
+             d="M 85.185547 4.4667969 C 40.851981 4.4667969 4.90625 40.451661 4.90625 84.833984 L 4.90625 727.76562 C 4.90625 772.14761 40.851981 808.13086 85.185547 808.13086 L 727.41406 808.13086 C 771.74796 808.13086 807.69336 772.14761 807.69336 727.76562 L 807.69336 84.833984 C 807.69336 40.451661 771.74796 4.4667969 727.41406 4.4667969 L 85.185547 4.4667969 z M 588.66016 155.15625 C 591.12191 155.14345 593.61066 155.17883 596.12305 155.25977 C 655.73599 157.01242 683.84959 195.70667 680.4043 271.35352 C 677.822 327.8792 638.38603 405.27746 562.08984 503.52734 C 483.2147 606.12505 416.47445 657.44336 361.90234 657.44336 C 328.07358 657.44336 299.45985 626.21331 276.08203 563.70703 C 260.47318 506.41452 244.88055 449.12728 229.26367 391.83008 C 211.89872 329.36264 193.28572 298.08984 173.36523 298.08984 C 169.02149 298.08984 153.8363 307.23379 127.83203 325.43945 L 100.55078 290.25195 C 129.1815 265.07183 157.41934 239.89402 185.20312 214.67773 C 223.39035 181.65988 252.07665 164.28391 271.18164 162.53125 C 316.31498 158.18544 344.10634 189.07712 354.5332 255.19922 C 365.80701 326.55048 373.61572 370.91932 377.99023 388.28516 C 391.01946 447.48168 405.34363 477.05078 420.97656 477.05078 C 433.10399 477.05078 451.35519 457.85463 475.68164 419.4375 C 499.96126 381.05185 512.97437 351.83936 514.73047 331.75781 C 518.20319 298.62544 505.18272 282.02148 475.68164 282.02148 C 461.78942 282.02148 447.46484 285.21819 432.73438 291.54102 C 460.36345 200.98926 512.34588 155.55306 588.66016 155.15625 z "
+             transform="matrix(1.4947929,0,0,-1.493162,-7.3333252,1206.6706)"
+             id="path4664" />
+          <g
+             id="g4508"
+             clip-path="url(#clipPath4510)">
+            <g
+               inkscape:label="Clip"
+               id="g4506" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(0,-82)" />
+</svg>

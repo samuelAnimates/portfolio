@@ -1,0 +1,35 @@
+.homepageAboutMeSection-color-scheme-default{
+	background-color: rgb(251,251,251);
+	border-color: rgba(150,150,150,0.2);
+}
+.homepageAboutMeSection-color-scheme-highContrast{
+	background-color: rgb(3,3,3);
+	border-color: rgba(251,251,251,0.8);
+}
+.border-style-solid{
+	border-style: solid;
+}
+.border-width-2px{
+	border-width: 2px;
+}
+.color-inherit{
+	color: inherit;
+}
+.height-100pc{
+	height: 100%;
+}
+.margin-auto{
+	margin: auto;
+}
+.padding-left-3em{
+	padding-left: 3em;
+}
+.padding-right-3em{
+	padding-right: 3em;
+}
+.padding-top-2em{
+	padding-top: 2em;
+}
+.text-center{
+	text-align: center;
+}

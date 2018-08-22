@@ -1,0 +1,9 @@
+.buttonContainer-color-scheme-default{
+	background-color: rgba(107,0,111,0.8);
+}
+.buttonContainer-color-scheme-highContrast{
+	background-color: rgb(191,191,191);
+}
+.padding-2px{
+	padding: 2px;
+}

@@ -1,0 +1,15 @@
+.text-center{
+	text-align: center;
+}
+.homepage-project-container-color-scheme-default:nth-child(odd) {
+	background-color: rgb(251, 251, 251);
+}
+.homepage-project-container-color-scheme-default:nth-child(even) {
+	background-color: rgb(255, 245, 251);
+}
+.homepage-project-container-color-scheme-highContrast:nth-child(odd) {
+	background-color: rgb(18, 0, 0);
+}
+.homepage-project-container-color-scheme-highContrast:nth-child(even) {
+	background-color: rgb(0, 0, 18);
+}

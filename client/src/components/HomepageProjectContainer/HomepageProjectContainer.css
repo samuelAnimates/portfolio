@@ -1,0 +1,56 @@
+.homepage-project-container-color-scheme-default{
+	background-color: rgb(251,251,251);
+	border-color: rgba(150,150,150,0.2);
+}
+.homepage-project-container-color-scheme-highContrast{
+	background-color: rgb(3,3,3);
+	border-color: rgba(251,251,251,0.8);
+}
+.border-style-solid{
+	border-style: solid;
+}
+.border-width-2px{
+	border-width: 2px;
+}
+.clear-both{
+	clear: both;
+}
+.color-inherit{
+	color: inherit;
+}
+.display-block{
+	display: block;
+}
+.display-inline-block{
+	display: inline-block;
+}
+.float-left{
+	float: left;
+}
+.margin-auto{
+	margin: auto;
+}
+.padding-bottom-p25em{
+	padding-bottom: 0.25em;
+}
+.padding-bottom-1em{
+	padding-bottom: 1em;
+}
+.padding-left-p5em{
+	padding-left: .5em;
+}
+.padding-right-p5em{
+	padding-right: .5em;
+} 
+.padding-top-1p5em{
+	padding-top: 1.5em
+}
+.width-20pc{
+	width: 15%;
+}
+.width-80pc{
+	width: 80%;
+}
+.width-100pc{
+	width: 100%;
+}

@@ -1,0 +1,46 @@
+.button-color-scheme-default{
+	background-color: rgb(251,251,251);
+	color: rgb(5,5,5);
+	border-color: rgba(150,150,150,0.3);
+}
+.button-color-scheme-highContrast{
+	color: rgb(3,3,3);
+	background-color: rgb(161,252,161);
+	border-color: rgb(3,3,3);
+}
+.button-color-scheme-default:focus, .button-color-scheme-default:hover, .button-color-scheme-default:active{
+	border-color: rgb(209,0,129);
+	background-color: rgb(151, 2, 128);
+	color: rgb(251,251,251);
+	cursor: pointer;
+}
+.button-color-scheme-highContrast:hover, .button-color-scheme-highContrast:focus{
+	border-color: rgb(3,3,3);
+	background-color: rgb(3,3,3);
+	color: rgb(251,251,251);
+	cursor: pointer;
+}
+.border-radius-12px{
+	border-radius: 12px;
+}
+.font-size-p9em{
+	font-size: 0.9em;
+}
+.padding-p5em{
+	padding: 0.5em;
+}
+
+
+.border-style-outset{
+	border-style: outset;
+}
+.border-width-2px{
+	border-width: 2px;
+}
+.width-100pc{
+	width: 100%
+}
+
+.z2{
+	z-index: 2;	
+}

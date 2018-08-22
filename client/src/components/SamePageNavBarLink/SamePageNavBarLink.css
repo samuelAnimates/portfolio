@@ -1,0 +1,26 @@
+.navBarLink-color-scheme-default{
+	text-decoration: underline rgb(20,20,255) double;
+	border: solid 2px rgba(255,255,255,0);
+}
+.navBarLink-color-scheme-default:focus, .navBarLink-color-scheme-default:hover{
+	background-color: rgb(0,0,87);
+	color: rgb(251,251,251);
+	text-decoration: underline rgb(252, 252, 88) double;
+	border: solid 2px rgb(209,0,129);
+	cursor: pointer;
+}
+.navBarLink-color-scheme-highContrast{
+	border: solid 2px rgba(0,0,0,0);
+	text-decoration: underline rgb(75, 250, 75) double;
+}
+.navBarLink-color-scheme-highContrast:focus, .navBarLink-color-scheme-highContrast:hover{
+	background-color: rgb(251,251,251);
+	color: rgb(3,3,3);
+	text-decoration: underline rgb(20,20,255) double;	
+	border: solid 2px rgb(255,179,223);
+	cursor: pointer;
+}
+
+.color-inherit{
+	color: inherit;
+}

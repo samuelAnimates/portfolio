@@ -1,0 +1,45 @@
+.projectPageOverview-color-scheme-default{
+	background-color: rgb(219, 238, 255);
+}
+.projectPageOverview-color-scheme-highContrast{
+	background-color: rgb(18, 0, 0);
+}
+.color-rgb-251-251-251{
+	color: rgb(251,251,251);
+}
+.display-inline{
+	display: inline;
+}
+.font-size-p85em{
+	font-size: 0.85em;
+}
+.paddng-bottom-p5em{
+	padding-bottom: .5em;
+}
+.paddng-bottom-1em{
+	padding-bottom: 1em;
+}
+.paddng-left-1em{
+	padding-left: 1em;
+}
+.paddng-right-1em{
+	padding-right: 1em;
+}
+.paddng-top-1em{
+	padding-top: 1em;
+}
+.padding-left-p5em{
+	padding-left: 0.5em;
+}
+.padding-right-p5em{
+	padding-right: 0.5em;
+}
+.padding-top-p5em{
+	padding-top: .5em;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}

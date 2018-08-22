@@ -1,0 +1,26 @@
+.header-color-scheme-highContrast{
+	background-color: rgb(251,251,251);
+	color: rgb(5,5,5);
+}
+.header-color-scheme-highContrast{
+	background-color: rgb(3,3,3);
+	color: rgb(251,251,251);
+}
+.padding-bottom-1em{
+	padding-bottom: 1em;
+}
+.padding-bottom-p25em{
+	padding-bottom: 0.25em;
+}
+padding-left-p25em{
+	padding-left: 0.25em;
+}
+padding-right-p25em{
+	padding-right: 0.25em;
+}
+.padding-top-p5em{
+	padding-top: 0.5em;
+}
+padding-top-p25em{
+	padding-top: 0.25em;
+}
