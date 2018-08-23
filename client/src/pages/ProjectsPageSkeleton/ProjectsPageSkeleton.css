@@ -47,7 +47,7 @@
 }
 .webProjectPage-color-scheme-default{
 	background-color: rgb(251,251,251);
-	background: linear-gradient(to bottom, rgb(254, 255, 232) 0%, rgb(254, 255, 232) 10%, rgb(250, 255, 183) 40%, rgb(246, 253, 147) 75%, rgb(249, 255, 161) 90%, rgb(0, 255, 115) 95%);
+	background: linear-gradient(to bottom, rgb(254, 255, 232) 0%, rgb(254, 255, 232) 10%,rgb(191, 255, 183) 40%,rgb(189, 253, 147) 75%, rgb(183, 255, 161) 90%, rgb(0, 255, 115) 95%);
 	color: rgb(5,5,5);
 }
 .webProjectPage-color-scheme-highContrast{

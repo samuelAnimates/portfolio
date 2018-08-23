@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./SaigonProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -56,6 +57,29 @@ class SaigonProject extends Component {
 				id: "saigonOverview02",
 				lead: "Process",
 				body: "We scheduled days of travel with Kunho's friends in the city where he spent his teen years: Saigon, Vietnam. Everywhere we went, Kunho wore a GoPro and documented wheelchair accessibility while I recorded observational footage on a DSLR. We then recorded interviews with Kunho's local friends, and we edited the audio down to web-friendy snippets. From there, I edited the videos and trained remote interns to make Korean, English, & Vietnamese subtitles for Facebook and YouTube"
+			}
+		],
+		links: [
+			{
+				"isInternalLink": false,
+				"id": "highlights0102",
+				"text": "'10 Days' Trailer on Facebook",
+				"icon": "video",
+				"path": "https://www.facebook.com/wearemuui/videos/1834490626823232/"
+			},
+			{
+				"isInternalLink": false,
+				"id": "highlights0103",
+				"text": "'10 Days' Google Map",
+				"icon": "map",
+				"path": "https://www.google.com/maps/d/viewer?mid=1msCQD_ab_Lz6mLz80wyu1qHXCBk&hl=en_US&ll=10.798291852220926%2C106.67387433398437&z=13"
+			},
+			{
+				"isInternalLink": false,
+				"id": "highlights0104",
+				"text": "'10 Days' Article",
+				"icon": "website",
+				"path": "https://www.giantrobot.media/stories/2017/5/30/muui"
 			}
 		]		
   }
@@ -123,6 +147,11 @@ class SaigonProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.saigonOverviewSectionRef }
 					synopsisSectionRef={ this.saigonSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

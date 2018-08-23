@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./JolietProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -46,6 +47,22 @@ class JolietProject extends Component {
 				id: "jolietOverview02",
 				lead: "Process",
 				body: "I fleshed out the concept and went to Joliet to record interviews with SCC staff and volunteers. I worked with the SCC executive director to frame the community and staff experience within the broad scope of services they offer."
+			}
+		],
+		"links": [
+			{
+				"isInternalLink": false,
+				"id": "video0102",
+				"text": "SCC Promo Video on Vimeo",
+				"icon": "video",
+				"path": "http://www.vimeo.com/221224584"
+			},
+			{
+				"isInternalLink": false,
+				"id": "video0103",
+				"text": "SCC Website",
+				"icon": "website",
+				"path": "https://spanishcenter.org/"
 			}
 		]
 		
@@ -113,6 +130,11 @@ class JolietProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.jolietOverviewSectionRef }
 					synopsisSectionRef={ this.jolietSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

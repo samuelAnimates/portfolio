@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./AfterProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -53,6 +54,15 @@ class AfterProject extends Component {
 				lead: "Support",
 				body: "I made this film with equipment from Harvard VES. Thank you to Alfred Guzzetti and George Olken for being great teachers. And thank you to my VES 52R classmates for the feedback."
 			},
+		],
+		links:[
+			{
+				"isInternalLink": false,
+				"id": "animation0502",
+				"text": "After, After That' Film on Vimeo",
+				"icon": "film",
+				"path": "https://vimeo.com/55657740"
+			}
 		]
 		
 	}
@@ -120,6 +130,11 @@ class AfterProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.afterAfterOverviewSectionRef }
 					synopsisSectionRef={ this.afterAfterSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

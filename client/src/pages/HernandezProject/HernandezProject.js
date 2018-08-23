@@ -22,7 +22,7 @@ class HernandezProject extends Component {
 			mediaType: "video",
 			blurb: "Officer Hernández's life flashes before her eyes as she drifts off into space. Sneak peek snippet below.",
 			embed: {
-				url: "https://player.vimeo.com/video/55657740",
+				url: "https://player.vimeo.com/video/233932687",
 				title: "'No One Can Hear You' snippet on Vimeo."
 			},
 			year: "In-progress",

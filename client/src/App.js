@@ -6,7 +6,6 @@ import HomePage from "./pages/HomePage";
 import Header from './components/Header';
 
 import ProjectsPageSkeleton from "./pages/ProjectsPageSkeleton";
-import TestPage from "./pages/TestPage";
 
 import './App.css';
 
@@ -149,7 +148,6 @@ class App extends Component {
 						responsiveWidth={this.state.responsiveWidth}
 					/>
 				)}/>
-				<Route exact path="/test" component={TestPage} />
             </Switch>
         </Router>
 		{ this.state.isMobileView === true &&

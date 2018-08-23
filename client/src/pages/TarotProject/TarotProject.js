@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./TarotProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -47,7 +48,25 @@ class TarotProject extends Component {
 				lead: "Next Steps",
 				body: "I think I may need to use local storage to take the user to a standalone URL for AR-readings. I ran into problems tryingto dynamically update the page contents with A-Frame. I would also like to add a second reading layout and fix some mobile layout issues."
 			}
+		],
+		links: [
+			{
+				"isInternalLink": false,
+				"id": "web0102",
+				"text": "'AR-Tarot' GitHub Repo",
+				"icon": "code",
+				"path": "https://github.com/smendez92/AR-tarot"
+			},
+			{
+				"isInternalLink": false,
+				"id": "web0103",
+				"text": "'AR-Tarot' Demo on GitHub Pages",
+				"icon": "website",
+				"path": "https://smendez92.github.io/AR-tarot/index"
+			}
 		]
+		
+
 		
 	}
 
@@ -115,6 +134,11 @@ class TarotProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.artarotOverviewSectionRef }
 					synopsisSectionRef={ this.artarotSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

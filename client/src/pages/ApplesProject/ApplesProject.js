@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./ApplesProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -46,6 +47,22 @@ class ApplesProject extends Component {
 				id: "applesOverview02",
 				lead: "Process",
 				body: "This was a whirlwind project we're all extremely proud of: our first multiplayer web app deployed to heroku, all with a cohesive mobile-ready frontend design. I wrote our ORM, controller, and router files necessary for retrieving cards from a database, before moving on to the actual game logic. This side of the backend development was filled with a lot of fun puzzles, trying to figure out efficient ways to divide the game logic between player devices in order to reduce the overall number of server calls + the amount of data shuttled back and forth. Given our short time frame, we all ended up pitching in to fix front and backend bugs as they popped up. So, I also created our SVG logo to make the front-end display a little more efficient. Thank you to my teammates Amanda Gault, Jordan Peart, Gowri Rajasekaran, Max Rashes, & Bex Way."
+			}
+		],
+		links: [
+			{
+				"isInternalLink": false,
+				"id": "web0202",
+				"text": "''Apples' GitHub Repo",
+				"icon": "code",
+				"path": "https://github.com/amgault/everythingButApples"
+			},
+			{
+				"isInternalLink": false,
+				"id": "web0203",
+				"text": "'Apples' Demo on Heroku",
+				"icon": "website",
+				"path": "https://everythingbutapples.herokuapp.com"
 			}
 		]
 		
@@ -116,6 +133,11 @@ class ApplesProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.applesOverviewSectionRef }
 					synopsisSectionRef={ this.applesSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./ArtemisProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -52,8 +53,30 @@ class ArtemisProject extends Component {
 				lead: "Process",
 				body: "I storyboarded a video based off of the group's needs. Then I edited itin cycles. I Shot footage on-location at the South Side Hackerspace (SSH). I also used SSH members' video recordings. I also used public domain footage courtesy of NASA. I did all the sound editing, animation, and video editing."
 			}
+		],
+		"links": [
+			{
+				"isInternalLink": false,
+				"id": "video0202",
+				"text": "'Artemis I' Video on Vimeo",
+				"icon": "video",
+				"path": "http://www.vimeo.com/223448852"
+			},
+			{
+				"isInternalLink": false,
+				"id": "video0203",
+				"text": "'Artemis I' Fundraising Campaign",
+				"icon": "website",
+				"path": "https://www.generosity.com/education-fundraising/experience-the-2017-eclipse-with-us-artemis-i"
+			},
+			{
+				"isInternalLink": false,
+				"id": "video0204",
+				"text": "South Side Hackerspace website",
+				"icon": "website",
+				"path": "https://sshchicago.org/"
+			}
 		]
-		
 	}
 
 	artemisNavbarLinks = [{title:"Synopsis", id:"artemisNavBarLinkSynopsis"},{title:"Highlights", id:"artemisNavBarLinkHighlights"},{title:"Overview", id:"artemisNavBarLinkOverview"}];
@@ -119,6 +142,11 @@ class ArtemisProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.artemisOverviewSectionRef }
 					synopsisSectionRef={ this.artemisSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

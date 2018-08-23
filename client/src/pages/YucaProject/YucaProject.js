@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./YucaProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -53,8 +54,16 @@ class YucaProject extends Component {
 				lead: "Support",
 				body: "I made this film with material support from Harvard VES. Thank you to Ruth Lingford for being my mentor. And thank you to Andrés Ballesteros for the lovely music."
 			},
+		],
+		links: [
+			{
+				"isInternalLink": false,
+				"id": "animation0402",
+				"text": "'Yuca' Film on Vimeo",
+				"path": "http://www.vimeo.com/95826024",
+				"icon": "film"
+			}
 		]
-		
 	}
 	yucaNavbarLinks = [{title:"Synopsis", id:"yucaNavBarLinkSynopsis"},{title:"Highlights", id:"yucaNavBarLinkHighlights"},{title:"Overview", id:"yucaNavBarLinkOverview"}];
 	yucaSynopsisSectionRef = React.createRef();
@@ -119,6 +128,11 @@ class YucaProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.yucaOverviewSectionRef }
 					synopsisSectionRef={ this.yucaSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

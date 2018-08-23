@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./BodegaProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -58,8 +59,16 @@ class BodegaProject extends Component {
 				lead: "Recognition",
 				body: "National Academy of Medicine's Visualize Health Equity project, official selection and panel speaker, Washington DC, 2017. Chicago Onscreen: Local Film Showcase, official selection, Chicago Park District, 2017. Chicago REEL Shorts Film Festival, Best Documentary nomination, Chicago, IL, 2014. Blue Plum Animation Festival, official selection, Johnson City, TN, 2014."
 			}
-		]
-		
+		],
+		"links": [
+			{
+				"isInternalLink": false,
+				"id": "highlights0302",
+				"text": "'A Bodega' Film on Vimeo",
+				"path": "https://vimeo.com/91566613",
+				"icon": "film"
+			}
+		]	
   }
   
 	bodegaNavbarLinks = [{title:"Synopsis", id:"bodegaNavBarLinkSynopsis"},{title:"Highlights", id:"bodegaNavBarLinkHighlights"},{title:"Overview", id:"bodegaNavBarLinkOverview"}];
@@ -125,6 +134,11 @@ class BodegaProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.bodegaOverviewSectionRef }
 					synopsisSectionRef={ this.bodegaSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

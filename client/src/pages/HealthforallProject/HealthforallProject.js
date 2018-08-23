@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import "./HealthforallProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -9,7 +11,7 @@ class HealthforallProject extends Component {
 		title: "Health for All",
 		synopsis:{
 			mediaType: "photo",
-			blurb: "A partnership between Northwestern Medicine and Chicago Public Library to spread knowledge and awareness of clinical trials in underrepresented communities.",
+			blurb: "A partnership to increase knowledge of clinical trials in Chicago's underrepresented communities.",
 			embed: {	
 				src: "../assets/images/projectPhotos/healthforall.jpg",
 				alt: "Health for All logo."
@@ -19,33 +21,42 @@ class HealthforallProject extends Component {
 				{
 					id: "healthforallSpecs01",
 					lead: "Role",
-					body: "Director, videographer, editor."
-				},
-				{
-					id: "healthforallSpecs02",
-					lead: "Length",
-					body: "02 min. 18 sec."
+					body: "guided user-centered design process for first project year; led co-design sessions and usability tests."
 				}
 			]
 		},
 		highlights: [
 			{
 				id: "healthforallHighlights01",
-				lead: "Role",
-				body: "Focus Group and Co-design session lead; prototyping and coordinating with our developnebt team to create a web app based off of paper and digital prototypes."
+				lead: "Contributions",
+				body: "F"
 			}
 		],
 		overview: [
 			{
 				id: "healthforallOverview01",
 				lead: "Background",
-				body: "I chose to take this on as a volunteer project because of the amazing and necessary work that the SCC does for the healthforall community. Just a few words into conversation with staff, volunteers, or leadership, and you can see just how dedicated this group is to serving the significant, but often ignored, Spanish-speaking population of Will County, IL."
+				body: "Many communities face health disparities. They might get certain diseases more often than others. Or they might face complications from a common disease more often. Clinical trials help find new treatments for disease. However, not all communities take part in clinical trials at the same rate. This means we can't be so sure that new medical breakthroughs will work for everyone. This pattern might make health disparities worse."
 			},
 			{
 				id: "healthforallOverview02",
-				lead: "Process",
-				body: "I fleshed out the concept and went to healthforall to record interviews with SCC staff and volunteers. I worked with the SCC executive director to frame the community and staff experience within the broad scope of services they offer."
+				lead: "Project Goals",
+				body: "Northwestern University and Chicago Public Library teamed up to create Health for All. Through this project, they hope to teach people from all communities about clinical trials. Long-term, they hope to help make participation in clinical trials more equal all across Chicago."
+			},
+			{
+				id: "healthforallOverview03",
+				lead: "My Involvement",
+				body: "Northwestern University and Chicago Public Library teamed up to create Health for All. Through this project, they hope to teach people from all communities about clinical trials. Long-term, they hope to help make participation in clinical trials more equal all across Chicago."
 			}
+		],
+		links: [
+			{
+				"isInternalLink": false,
+				"id": "health0101",
+				"text": "Health for All website",
+				"icon": "website",
+				"path": "http://healthforallproject.org/"
+			},
 		]		
   }
   
@@ -111,6 +122,11 @@ class HealthforallProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.healthforallOverviewSectionRef }
 					synopsisSectionRef={ this.healthforallSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

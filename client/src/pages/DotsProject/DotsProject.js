@@ -12,7 +12,7 @@ class DotsProject extends Component {
 			mediaType: "photo",
 			blurb: "Site-specific art installation. Location: 2 public bathrooms in Harvard College housing.",
 			embed: {
-				src: "../assets/images/projectPhotos/dots-3.jpg",
+				src: "../assets/images/projectPhotos/dots.jpg",
 				alt: "A penguin themed connect-the-dot poster hung on the wall of a public bathroom."
 			},
 			year: "2013",

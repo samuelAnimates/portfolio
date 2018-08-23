@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./TeenyProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -47,6 +48,22 @@ class TeenyProject extends Component {
 				id: "teenyOverview01",
 				lead: "Process",
 				body: "I started off with a storyboard based on a pre-recorded voiceover. Then I wrote a shorter version of the narration to re-record. I made animation segments and shot new product footage. I also included existing product photos. I edited the final video for use on the Kickstarter campaign page."
+			}
+		],
+		links: [
+			{
+				"isInternalLink": false,
+				"id": "video0402",
+				"text": "'Teeny' Fundraising Video on Vimeo",
+				"icon": "video",
+				"path": "http://www.vimeo.com/172990828"
+			},
+			{
+				"isInternalLink": false,
+				"id": "video0403",
+				"text": "Teeny' Fundraising Campaign",
+				"icon": "website",
+				"path": "https://www.kickstarter.com/projects/849732009/teeny-artisan-coin-holders-for-your-change-and-ess"
 			}
 		]
 		
@@ -114,6 +131,11 @@ class TeenyProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.teenyOverviewSectionRef }
 					synopsisSectionRef={ this.teenySynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

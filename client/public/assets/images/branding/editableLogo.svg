@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 545 371.5" style="enable-background:new 0 0 545 371.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#2B2B2B;}
+	.st1{fill:#FEBBC3;stroke:#7D7D7D;stroke-width:0.5089;stroke-linejoin:bevel;}
+	.st2{fill:#8FC0E5;stroke:#7D7D7D;stroke-width:0.5089;stroke-linejoin:bevel;}
+	.st3{fill:#FFFFD5;stroke:#7D7D7D;stroke-width:0.5089;stroke-linejoin:bevel;}
+	.st4{enable-background:new    ;}
+	.st5{stroke:#FFFFFF;stroke-width:0.365;}
+	.st6{font-family:'MyriadPro-Semibold';}
+	.st7{font-size:276px;}
+	.st8{letter-spacing:13.5;}
+	.st9{fill:#232323;stroke:#FFFFFF;stroke-width:0.365;}
+	.st10{font-family:'LucidaConsole';}
+	.st11{font-size:133px;}
+	.st12{letter-spacing:1;}
+	.st13{font-size:210px;}
+	.st14{letter-spacing:-10.4;}
+	.st15{font-size:96px;}
+	.st16{letter-spacing:-1;}
+</style>
+<font horiz-adv-x="1000">
+<!-- Copyright 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights reserved. Myriad is either a registered trademark or a trademark of Adobe Systems Incorporated in the United States and/or other countries. -->
+<font-face font-family="MyriadPro-Semibold" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
+<glyph unicode="A" horiz-adv-x="636" d="M420,191l61,-191l132,0l-219,674l-157,0l-216,-674l127,0l58,191M226,284l52,166C290,490 300,537 310,576l2,0C322,537 333,491 346,450l53,-166z"/>
+<glyph unicode="S" horiz-adv-x="519" d="M41,32C78,10 152,-10 223,-10C397,-10 479,84 479,192C479,289 422,348 305,392C215,427 176,451 176,503C176,542 210,584 288,584C351,584 398,565 422,552l30,99C417,669 363,685 290,685C144,685 52,601 52,491C52,394 123,335 234,295C320,264 354,234 354,183C354,128 310,91 231,91C168,91 108,111 68,134z"/>
+</font>
+
+	<font horiz-adv-x="2048">
+<!-- Lucida is a registered trademark of Bigelow &amp; Holmes Inc. -->
+<!-- Copyright: Copyright 2018 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="LucidaConsole" units-per-em="2048" underline-position="-205" underline-thickness="102"/>
+<missing-glyph horiz-adv-x="1234" d="M256,0l0,1280l722,0l0,-1280M320,64l594,0l0,1152l-594,0z"/>
+<glyph unicode="A" horiz-adv-x="1234" d="M12,0l506,1283l197,0l506,-1283l-209,0l-121,321l-586,0l-123,-321M364,469l468,0l-235,613z"/>
+<glyph unicode="E" horiz-adv-x="1234" d="M216,0l0,1283l867,0l0,-148l-670,0l0,-389l568,0l0,-148l-568,0l0,-450l716,0l0,-148z"/>
+<glyph unicode="I" horiz-adv-x="1234" d="M173,0l0,148l345,0l0,987l-345,0l0,148l888,0l0,-148l-345,0l0,-987l345,0l0,-148z"/>
+<glyph unicode="L" horiz-adv-x="1234" d="M222,0l0,1283l197,0l0,-1135l691,0l0,-148z"/>
+<glyph unicode="M" horiz-adv-x="1234" d="M94,0l0,1283l237,0l282,-790l2,0l277,790l247,0l0,-1283l-161,0l0,1101l-2,0l-289,-830l-166,0l-288,807l-2,0l0,-1078z"/>
+<glyph unicode="N" horiz-adv-x="1234" d="M148,0l0,1287l186,0l589,-933l2,0l0,929l161,0l0,-1283l-182,0l-593,940l-3,0l0,-940z"/>
+<glyph unicode="S" horiz-adv-x="1234" d="M1010,1253l0,-171C865,1138 737,1166 624,1166C446,1166 357,1106 357,986C357,937 374,898 407,869C440,839 502,808 592,777l126,-44l120,-41C1024,627 1117,516 1117,360C1117,241 1070,147 975,76C880,5 752,-31 593,-31C482,-31 339,-7 164,40l0,195C339,156 484,117 599,117C696,117 774,136 832,175C890,213 919,264 919,329C919,378 902,417 868,446C833,475 762,509 655,548l-132,48C392,645 301,695 250,746C199,797 173,866 173,951C173,1066 212,1156 291,1219C369,1282 479,1314 621,1314C736,1314 866,1294 1010,1253z"/>
+<glyph unicode="T" horiz-adv-x="1234" d="M518,0l0,1135l-493,0l0,148l1184,0l0,-148l-493,0l0,-1135z"/>
+<glyph unicode="U" horiz-adv-x="1234" d="M153,1283l197,0l0,-779C350,368 372,270 415,209C458,148 527,117 623,117C724,117 797,148 842,209C887,270 909,370 909,509l0,774l172,0l0,-745C1081,377 1062,262 1024,192C943,43 810,-31 625,-31C464,-31 346,13 269,101C192,189 153,324 153,507z"/>
+</font>
+
+	<g id="Layer_3">
+	<rect y="0.7" class="st0" width="519.6" height="370"/>
+</g>
+<g id="svg8" inkscape:version="0.92.1 r15371" sodipodi:docname="logo.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg">
+	
+		<sodipodi:namedview  bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" id="namedview4522" inkscape:current-layer="svg8" inkscape:cx="563.66591" inkscape:cy="155.26234" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="986" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-11" inkscape:window-y="-11" inkscape:zoom="0.47345612" objecttolerance="10" pagecolor="#ffffff" showgrid="false">
+		</sodipodi:namedview>
+	<g id="layer2" transform="translate(51.372185,-80.050702)">
+	</g>
+	<g id="layer1" transform="translate(51.372185,-80.050702)">
+	</g>
+	<g id="layer3" transform="translate(51.372185,-80.050702)">
+	</g>
+	<g id="layer4" transform="translate(51.372185,-80.050702)">
+	</g>
+	<g id="layer5" transform="translate(51.372185,-80.050702)">
+	</g>
+	<g id="layer6" transform="translate(51.372185,-80.050702)">
+	</g>
+	<g id="layer7" transform="translate(51.372185,-80.050702)">
+	</g>
+	<g id="g4792" transform="translate(77.882572,-219.34122)">
+	</g>
+	<rect id="rect4728_1_" y="0.7" class="st1" width="141.8" height="370"/>
+	<rect id="rect4728-3_1_" x="155.3" y="0.7" class="st2" width="141.8" height="370"/>
+	<rect id="rect4728-5_1_" x="310.6" y="0.7" class="st3" width="234.4" height="370"/>
+</g>
+<g id="Layer_4">
+	<text transform="matrix(0.9639 0 0 1 -4.9996 222.1252)" class="st4"><tspan x="0" y="0" class="st5 st6 st7 st8">S</tspan><tspan x="157" y="0" class="st9 st10 st11 st12">AMUEL</tspan></text>
+	<text transform="matrix(0.9639 0 0 1 45.3499 334.6182)" class="st4"><tspan x="0" y="0" class="st5 st6 st13 st14">A</tspan><tspan x="123.1" y="0" class="st9 st10 st15 st16">NIMATES</tspan></text>
+</g>
+</svg>

@@ -119,8 +119,7 @@ class HomePage extends Component {
 							"componentPage": "WikiProject",
 							"id": "highlights0201",
 							"text": "'A11Y Wiki' Overview",
-							"icon": "page",
-							
+							"icon": "page"
 						},
 						{
 							"isInternalLink": false,
@@ -184,7 +183,7 @@ class HomePage extends Component {
 								"path": "/projects/hernandez",
 								"componentPage": "HernandezProject",
 								"text": "'No One Can Hear You' Overview",
-								"icon": "page",
+								"icon": "page"
 							},
 							{
 								"isInternalLink": false,
@@ -234,7 +233,7 @@ class HomePage extends Component {
 								"path": "/projects/breakfast",
 								"componentPage": "BreakfastProject",
 								"text": "'Persefone's Breakfast' Overview",
-								"icon": "page",
+								"icon": "page"
 								
 							},
 							{
@@ -261,7 +260,7 @@ class HomePage extends Component {
 								"path": "/projects/yuca",
 								"componentPage": "YucaProject",
 								"text": "'Yuca' Overview",
-								"icon": "page",
+								"icon": "page"
 							},
 							{
 								"isInternalLink": false,
@@ -286,7 +285,7 @@ class HomePage extends Component {
 								"path": "/projects/after",
 								"componentPage": "AfterProject",
 								"text": "'After, After That' Overview",
-								"icon": "page",
+								"icon": "page"
 							},
 							{
 								"isInternalLink": false,
@@ -309,7 +308,7 @@ class HomePage extends Component {
 						"icon": "./assets/images/homepageIcons/homepage-icon-nlm.svg",
 						"iconAlt": "",
 						"description": "Ongoing prototype development for a clinical trial informational tool under development in partnership with Chicago Public Libraries.",
-						"projectPagePath": "/projects/health",
+						"projectPagePath": "/projects/healthforall",
 						"links": [
 							{
 								"isInternalLink": true,

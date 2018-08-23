@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./BreakfastProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -58,6 +59,16 @@ class BreakfastProject extends Component {
 				lead: "Support",
 				body: "I made my final city models with help from Ed Whetstone's Kludge City script. Thank you to Clare and Allison for your feedback on my writing. Thank you Dennis, Mateo, Brooke, Jasmine, Andrew, Rebecca, Lauren, and Ruth Lingford for your feedback on early film drafts. Applause for Cecilia Garcia's fantastic vocal performance! Thank you CTRL Sound Studios for your work. Thank you Andrés Ballesteros for the glitchy music."
 			},
+		],
+		"links": [
+			{
+				"isInternalLink": false,
+				"id": "animation0302",
+				"text": "'Persefone's Breakfast' Film on Vimeo",
+				"path": "http://www.vimeo.com/134973465",
+				"icon": "film",
+				
+			}
 		]
 		
 	}
@@ -125,6 +136,11 @@ class BreakfastProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.breakfastOverviewSectionRef }
 					synopsisSectionRef={ this.breakfastSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

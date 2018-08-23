@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import "./WikiProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -45,6 +47,22 @@ class WikiProject extends Component {
 				id: "wikiOverview02",
 				lead: "Process",
 				body: "I fleshed out the concept and went to wiki to record interviews with SCC staff and volunteers. I worked with the SCC executive director to frame the community and staff experience within the broad scope of services they offer."
+			}
+		],
+		links: [
+			{
+				"isInternalLink": false,
+				"id": "highlights0202",
+				"text": "'A11Y Wiki' GitHub Repo",
+				"path": "https://github.com/smendez92/wheelchairWiki",
+				"icon": "code"
+			},
+			{
+				"isInternalLink": false,
+				"id": "highlights0204",
+				"text": "'A11Y Wiki' Demo on Heroku",
+				"path": "https://wheelchairtravelwiki.herokuapp.com",
+				"icon": "website"
 			}
 		]		
   }
@@ -111,6 +129,11 @@ class WikiProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.wikiOverviewSectionRef }
 					synopsisSectionRef={ this.wikiSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

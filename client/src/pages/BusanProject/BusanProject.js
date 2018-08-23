@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./BusanProject.css";
+import HomepageProjectLinksContainer from '../../components/HomepageProjectLinksContainer';
 import SamePageNavBar from '../../components/SamePageNavBar';
 import SamePageNavBarMobile from '../../components/SamePageNavBarMobile';
 import ProjectPageMainSections from '../../components/ProjectPageMainSections';
@@ -68,6 +69,15 @@ class BusanProject extends Component {
 				lead: "Support",
 				body: "Thank you to the strangers who helped me when I got lost. And thank you to the strangers who became friends. Thank you Dennis, Mateo, and Ruth Lingford for your feedback on drafts of this film. Shout out to Andrew Blad for the amazing drum tracks."
 			}
+		],
+		"links": [
+			{
+				"isInternalLink": false,
+				"id": "animation0202",
+				"text": "'Busan' Trailer on Vimeo",
+				"path": "https://vimeo.com/203944431",
+				"icon": "video"
+			}
 		]
 		
 	}
@@ -135,6 +145,11 @@ class BusanProject extends Component {
 					projectInfo={ this.projectInfo }
 					overviewSectionRef={ this.busanOverviewSectionRef }
 					synopsisSectionRef={ this.busanSynopsisSectionRef }
+				/>
+				<HomepageProjectLinksContainer
+					links={ this.projectInfo.links }
+					colorSchemeSuffix={ this.props.colorSchemeSuffix }
+					materialIconFill={ this.props.materialIconFill }
 				/>
 			</div>
 		);

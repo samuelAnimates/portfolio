@@ -20,7 +20,6 @@ import HernandezProject from "../../pages/HernandezProject";
 import JolietProject from "../../pages/JolietProject";
 import LmhtfProject from "../../pages/LmhtfProject";
 import MediaProject from "../../pages/MediaProject";
-import PlannedparenthoodProject from "../../pages/PlannedparenthoodProject";
 import SaigonProject from "../../pages/SaigonProject";
 import TarotProject from "../../pages/TarotProject";
 import TeenyProject from "../../pages/TeenyProject";
@@ -106,6 +105,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -118,6 +118,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -129,6 +130,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -140,6 +142,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -151,6 +154,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -162,6 +166,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -172,6 +177,7 @@ class ProjectsPageSkeleton extends Component {
 										colorSchemeSuffix={ this.props.colorSchemeSuffix }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -183,6 +189,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -190,8 +197,11 @@ class ProjectsPageSkeleton extends Component {
 								<Route exact path='/projects/healthforall' render={props => (
 									<HealthforallProject
 										colorSchemeNameRoot="healthProjectPage-color-scheme-"
+										colorSchemeSuffix={ this.props.colorSchemeSuffix }
+										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -203,6 +213,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -214,6 +225,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -225,6 +237,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -235,16 +248,7 @@ class ProjectsPageSkeleton extends Component {
 										colorSchemeSuffix={ this.props.colorSchemeSuffix }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
-										responsiveFloat={ this.props.responsiveFloat }
-										responsiveWidth={ this.props.responsiveWidth }
-									/>
-								)}/>
-								<Route exact path='/projects/plannedparenthood' render={props => (
-									<PlannedparenthoodProject
-										colorSchemeNameRoot="healthProjectPage-color-scheme-"
-										colorSchemeSuffix={ this.props.colorSchemeSuffix }
-										fontSizeLevel={ this.props.fontSizeLevel }
-										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -256,6 +260,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -266,6 +271,7 @@ class ProjectsPageSkeleton extends Component {
 										colorSchemeSuffix={ this.props.colorSchemeSuffix }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -277,6 +283,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -288,6 +295,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
@@ -299,11 +307,23 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
 								)}/>
-								<Route exact path='/projects/wiki' component={WikiProject}/>
+								<Route exact path='/projects/wiki' render={props => (
+									<WikiProject
+										colorSchemeNameRoot="webProjectPage-color-scheme-"
+										colorSchemeSuffix={ this.props.colorSchemeSuffix }
+										doNotTrack={ this.props.doNotTrack }
+										fontSizeLevel={ this.props.fontSizeLevel }
+										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
+										responsiveFloat={ this.props.responsiveFloat }
+										responsiveWidth={ this.props.responsiveWidth }
+									/>
+								)}/>
 								<Route exact path='/projects/yuca' render={props => (
 									<YucaProject
 										colorSchemeNameRoot="filmProjectPage-color-scheme-"
@@ -311,6 +331,7 @@ class ProjectsPageSkeleton extends Component {
 										doNotTrack={ this.props.doNotTrack }
 										fontSizeLevel={ this.props.fontSizeLevel }
 										isMobileView={ this.props.isMobileView }
+										materialIconFill={ this.props.materialIconFill }
 										responsiveFloat={ this.props.responsiveFloat }
 										responsiveWidth={ this.props.responsiveWidth }
 									/>
