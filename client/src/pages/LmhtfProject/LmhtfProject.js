@@ -51,7 +51,7 @@ class LmhtfProject extends Component {
 	lmhtfOverviewSectionRef = React.createRef();
 
 	componentDidMount() {
-		document.title = "'10 Days in lmhtf' Project Page";
+		document.title = "'Bodegas Saludables' Project Page";
 	};
 	
 	handleButtonClick = event => {

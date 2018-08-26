@@ -28,8 +28,8 @@ class HealthforallProject extends Component {
 		highlights: [
 			{
 				id: "healthforallHighlights01",
-				lead: "Contributions",
-				body: "F"
+				lead: "Short-term Outcomes",
+				body: "I guided the design process from the source material (a deck of flashcards) to a functional WordPress build. Along the way, we made several different prototypes and retained an alternate format to A/B test with our initial WordPress build."
 			}
 		],
 		overview: [
@@ -46,7 +46,7 @@ class HealthforallProject extends Component {
 			{
 				id: "healthforallOverview03",
 				lead: "My Involvement",
-				body: "Northwestern University and Chicago Public Library teamed up to create Health for All. Through this project, they hope to teach people from all communities about clinical trials. Long-term, they hope to help make participation in clinical trials more equal all across Chicago."
+				body: "I guided the user-centered design process during the project's first year. I led empathy exercises and micro-usability tests for the research team to think about the library setting more realistically. I led observational site visits to partner libraries so we could understand library usage more. I facilitated co-design sessions with librarians and library patrons, and helped translate out findings into website features. Most importantly to me, I helped lay out the project timeline to be more iterative, with a focus on more rapid prototyping than is the norm in many public health partnerships."
 			}
 		],
 		links: [
@@ -67,7 +67,7 @@ class HealthforallProject extends Component {
 	healthforallOverviewSectionRef = React.createRef();
 
 	componentDidMount() {
-		document.title = "'10 Days in healthforall' Project Page";
+		document.title = "'Health for All' Project Page";
 	};
 	
 	handleButtonClick = event => {

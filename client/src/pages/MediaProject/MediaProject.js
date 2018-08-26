@@ -77,7 +77,7 @@ class MediaProject extends Component {
 	mediaOverviewSectionRef = React.createRef();
 
 	componentDidMount() {
-		document.title = "'10 Days in media' Project Page";
+		document.title = "Social Meda Study Page";
 	};
 	
 	handleButtonClick = event => {
